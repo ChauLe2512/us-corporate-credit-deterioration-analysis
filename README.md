@@ -18,7 +18,7 @@ The project is intended as a financial-fundamental screening exercise rather tha
 
 ## Dashboard
 
-![Corporate Credit Deterioration Dashboard](dashboard/corporate_credit_dashboard.png)
+![Corporate Credit Deterioration Dashboard](dashboard.png)
 
 The Tableau dashboard presents four key measures for each selected company:
 
@@ -109,7 +109,7 @@ For leverage ratios, an increase is treated as deterioration.
 
 The Deterioration Rate measures the proportion of available financial indicators that both deteriorated over time and were weaker than industry peers *(Deterioration Rate = Number of deterioration signals / Number of valid deterioration tests)*.
 
-For full details on data cleaning, sample construction, ratio treatment, peer benchmarking, deterioration rules and company selection, see [Methodology](docs/methodology.md).
+For full details on data cleaning, sample construction, ratio treatment, peer benchmarking, deterioration rules and company selection, see [Methodology](methodology.md).
 
 ---
 
@@ -136,12 +136,8 @@ corporate-credit-deterioration-analysis/
 │
 ├── README.md
 ├── analysis.py
-│
-├── dashboard/
-│   └── corporate_credit_dashboard.png
-│
-└── docs/
-    └── methodology.md
+├── dashboard.png
+└── methodology.md
 ```
 
 ---
